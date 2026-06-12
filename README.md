@@ -84,14 +84,14 @@ DISCORD_SUCCESS
 Triggered by error handlers, limit switches, or critical failures (e.g., runaway). This is the most urgent status code.
 ```gcode
 DISCORD_FAIL
-# Sends: "🚨 PRINT FAILURE DETECTED! Stopping immediately."
+# Sends: " PRINT FAILURE DETECTED! Stopping immediately."
 ```
 
 ###  Warning/Pause Macro
 Use this when the print pauses for non-fatal reasons (e.g., temperature drop, material change).
 ```gcode
 DISCORD_WARN
-# Sends: "💡 PAUSED/WARNING - Check feed lines or bed leveling."
+# Sends: " PAUSED/WARNING - Check feed lines or bed leveling."
 ```
 
 ##  Troubleshooting and Known Issues
